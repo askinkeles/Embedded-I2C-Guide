@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 350">
+  <rect width="800" height="350" fill="#ffffff"/>
+  
+  <line x1="50" y1="30" x2="750" y2="30" stroke="#009688" stroke-width="3"/>
+  <text x="760" y="35" font-family="Arial" font-size="14" fill="#009688" font-weight="bold">VCC (3.3V)</text>
+
+  <path d="M 250 30 L 250 60 L 245 65 L 255 75 L 245 85 L 255 95 L 250 100 L 250 130" stroke="#333" stroke-width="2" fill="none"/>
+  <text x="260" y="85" font-family="Arial" font-size="14">Rp</text>
+  <circle cx="250" cy="30" r="4" fill="#333"/>
+  
+  <path d="M 350 30 L 350 60 L 345 65 L 355 75 L 345 85 L 355 95 L 350 100 L 350 180" stroke="#333" stroke-width="2" fill="none"/>
+  <text x="360" y="85" font-family="Arial" font-size="14">Rp</text>
+  <circle cx="350" cy="30" r="4" fill="#333"/>
+
+  <line x1="50" y1="130" x2="750" y2="130" stroke="#039BE5" stroke-width="3"/>
+  <text x="760" y="135" font-family="Arial" font-size="14" fill="#039BE5" font-weight="bold">SCL</text>
+  <circle cx="250" cy="130" r="4" fill="#333"/>
+
+  <line x1="50" y1="180" x2="750" y2="180" stroke="#8E24AA" stroke-width="3"/>
+  <text x="760" y="185" font-family="Arial" font-size="14" fill="#8E24AA" font-weight="bold">SDA</text>
+  <circle cx="350" cy="180" r="4" fill="#333"/>
+
+  <rect x="50" y="230" width="100" height="60" rx="5" fill="#B2DFDB" stroke="#004D40" stroke-width="2"/>
+  <text x="100" y="265" text-anchor="middle" font-family="Arial" font-size="14" font-weight="bold" fill="#004D40">MASTER</text>
+  <text x="100" y="280" text-anchor="middle" font-family="Arial" font-size="12" fill="#004D40">(ESP32)</text>
+  <line x1="80" y1="130" x2="80" y2="230" stroke="#039BE5" stroke-width="2"/> <circle cx="80" cy="130" r="4" fill="#039BE5"/>
+  <line x1="120" y1="180" x2="120" y2="230" stroke="#8E24AA" stroke-width="2"/> <circle cx="120" cy="180" r="4" fill="#8E24AA"/>
+
+  <rect x="250" y="230" width="100" height="60" rx="5" fill="#FFCCBC" stroke="#BF360C" stroke-width="2"/>
+  <text x="300" y="265" text-anchor="middle" font-family="Arial" font-size="14" font-weight="bold" fill="#BF360C">SLAVE 1</text>
+  <line x1="280" y1="130" x2="280" y2="230" stroke="#039BE5" stroke-width="2"/> <circle cx="280" cy="130" r="4" fill="#039BE5"/>
+  <line x1="320" y1="180" x2="320" y2="230" stroke="#8E24AA" stroke-width="2"/> <circle cx="320" cy="180" r="4" fill="#8E24AA"/>
+
+  <rect x="450" y="230" width="100" height="60" rx="5" fill="#FFCCBC" stroke="#BF360C" stroke-width="2"/>
+  <text x="500" y="265" text-anchor="middle" font-family="Arial" font-size="14" font-weight="bold" fill="#BF360C">SLAVE 2</text>
+  <line x1="480" y1="130" x2="480" y2="230" stroke="#039BE5" stroke-width="2"/> <circle cx="480" cy="130" r="4" fill="#039BE5"/>
+  <line x1="520" y1="180" x2="520" y2="230" stroke="#8E24AA" stroke-width="2"/> <circle cx="520" cy="180" r="4" fill="#8E24AA"/>
+
+  <rect x="650" y="230" width="100" height="60" rx="5" fill="#FFCCBC" stroke="#BF360C" stroke-width="2"/>
+  <text x="700" y="265" text-anchor="middle" font-family="Arial" font-size="14" font-weight="bold" fill="#BF360C">SLAVE 3</text>
+  <line x1="680" y1="130" x2="680" y2="230" stroke="#039BE5" stroke-width="2"/> <circle cx="680" cy="130" r="4" fill="#039BE5"/>
+  <line x1="720" y1="180" x2="720" y2="230" stroke="#8E24AA" stroke-width="2"/> <circle cx="720" cy="180" r="4" fill="#8E24AA"/>
+</svg>
